@@ -1,7 +1,6 @@
 # Devcourse_Programmers
 
 ## 1주차 과제입니다
-### 마크업 사용법 
 
 제출자: 한정욱
 
