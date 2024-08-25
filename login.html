@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login-In</title>
+    <link rel="stylesheet" href="style.css"/>
+    <!-- <style>
+      h1{
+        color:red; 
+        text-align: center;
+      }
+      .login_input{
+        font-size: 25px;
+      }
+    </style> -->
+  </head>
+  <body>
+    <h1>로그인</h1>
+    <form>
+      ID : <input id="txt_id" class="login_input" type="text" style="font-size: 25px">
+      <br>
+      PassWord : <input  class="login_input"  type="password" style="font-size: 25px">
+      <br>
+      <input onclick="podId()" type="button" value="login" style="font-size: 25px; width: 100px; height: 30px;">
+    </form>
+    <script>  
+      function podId(){
+      let userId = document.getElementById("txt_id").value;
+        if(!userId){
+          alert("아이디를 입력하세요")
+        }else alert(userId)
+      }
+      function myFunction(){
+        alert('1');
+        alert('2');
+        alert('3');
+      }
+    </script>
+  </body>
+</html>
